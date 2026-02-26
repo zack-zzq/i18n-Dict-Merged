@@ -1,0 +1,7 @@
+{
+  "enchdesc.activate.message": "按住Shift查看魔咒描述。",
+  "__comment_jei": "JEI 兼容",
+  "enchdesc.jei.compatible_items.title": "兼容物品",
+  "__support_gofish": "Go Fish 支持 https://www.curseforge.com/minecraft/mc-mods/go-fish",
+  "enchantment.gofish.deepfry.desc": "钓上某些鱼时会直接将其烤熟。"
+}
