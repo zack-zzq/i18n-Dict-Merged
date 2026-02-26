@@ -1,0 +1,15 @@
+{
+  "ftblibrary.select_item.list_mode.jei": "JEI",
+  "ftblibrary.select_item.list_mode.rei": "REI",
+  "ftblibrary.select_image.scanning": "正在扫描图像，这可能需要几秒钟……",
+  "ftblibrary.select_image.rescan": "重新扫描图像",
+  "sidebar_group.ftblibrary.info": "FTB 库 —— 信息",
+  "sidebar_group.ftblibrary.cheat": "FTB 库 —— 作弊",
+  "sidebar_group.ftblibrary.util": "FTB 库 —— 实用工具",
+  "item.ftblibrary.fluid_container": "流体容器",
+  "item.ftblibrary.fluid_container.use": "右击储罐以清空容器",
+  "ftblibrary.mb": "%dmB %s",
+  "ftblibrary.empty": "空",
+  "ftblibrary.gui.listSize1": "1 个物品",
+  "ftblibrary.gui.listSize": "%d 物品"
+}
