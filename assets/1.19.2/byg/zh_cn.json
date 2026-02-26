@@ -1,0 +1,10 @@
+{
+  "byg.command.resetconfig.notifyrestart": "配置已重置，请重启游戏以应用所有更改。",
+  "byg.command.validateconfig.notifyrestart": "配置已通过验证，请重启游戏以应用所有更改。",
+  "byg.command.validateconfig.success": "配置已成功通过验证！",
+  "byg.config.error": "BYG 配置出现错误，BYG 已改用默认设置！详情请查看你的 latest.log 文件。",
+  "byg.config.error.commandvalidate": "修改配置后执行 \"/byg configs validate\" 验证配置更改。如果你未修复配置且验证失败，该消息会重复出现。",
+  "byg.config.error.latestlog": "[点击此处打开 latest.log！]",
+  "byg.config.error.resetconfigs": "或者如果你没有编辑过配置但配置损坏了，你可以执行 \"/byg configs reset\"",
+  "byg.config.error.restart": "配置更改需要重启游戏才能生效。"
+}
