@@ -1,0 +1,10 @@
+{
+  "create.createsifter.recipe.sifting.minimumspeed": "%1$s RPM",
+  "createsifter.ponder.sifter.header": "方块过筛",
+  "createsifter.ponder.sifter.text_1": "筛子可以筛取物品",
+  "createsifter.ponder.sifter.text_2": "在其侧边使用齿轮与其相耦合，方可为其通入动力",
+  "createsifter.ponder.sifter.text_3": "顶部可以丢入或者塞入物品",
+  "createsifter.ponder.sifter.text_4": "一段时间后，即可右键取出产物",
+  "createsifter.ponder.sifter.text_5": "产物的提取也是可以自动化的",
+  "createsifter.recipe.sifting.waterlogged": "含水"
+}
