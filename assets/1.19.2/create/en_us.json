@@ -1,0 +1,21 @@
+{
+  "fluid.create.chocolate": "Chocolate",
+  "fluid.create.honey": "Honey",
+  "create.schematic.tool.move.description.2": "",
+  "create.schematic.tool.move.description.3": "",
+  "create.schematic.tool.move_y.description.2": "",
+  "create.schematic.tool.move_y.description.3": "",
+  "create.schematic.tool.rotate.description.2": "",
+  "create.schematic.tool.rotate.description.3": "",
+  "create.schematic.tool.print.description.3": "",
+  "create.schematic.tool.flip.description.2": "",
+  "create.schematic.tool.flip.description.3": "",
+  "item.create.example_item.tooltip": "EXAMPLE ITEM (just a marker that this tooltip exists)",
+  "item.create.example_item.tooltip.summary": "A brief description of the item. _Underscores_ highlight a term.",
+  "item.create.example_item.tooltip.condition1": "When this",
+  "item.create.example_item.tooltip.behaviour1": "Then this item does this. (behaviours show on shift)",
+  "item.create.example_item.tooltip.condition2": "And When this",
+  "item.create.example_item.tooltip.behaviour2": "You can add as many behaviours as you like",
+  "item.create.example_item.tooltip.control1": "When Ctrl pressed",
+  "item.create.example_item.tooltip.action1": "These controls are displayed."
+}
