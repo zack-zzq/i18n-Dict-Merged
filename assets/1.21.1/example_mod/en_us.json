@@ -1,0 +1,18 @@
+{
+  "cerulean.configuration.client": "client",
+  "cerulean.configuration.example": "example",
+  "earlybedtime.configuration.client": "client",
+  "earlybedtime.configuration.example": "example",
+  "immersivearmorhud.configuration.client": "client",
+  "immersivearmorhud.configuration.example": "example",
+  "miningspeedtooltips.configuration.client": "client",
+  "miningspeedtooltips.configuration.example": "example",
+  "packanalytics.configuration.client": "client",
+  "packanalytics.configuration.example": "example",
+  "reset_controls_confirmation.configuration.client": "client",
+  "reset_controls_confirmation.configuration.example": "example",
+  "sodiumoptionsmodcompat.configuration.client": "client",
+  "sodiumoptionsmodcompat.configuration.example": "example",
+  "example_mod.configuration.client": "client",
+  "example_mod.configuration.example": "example"
+}

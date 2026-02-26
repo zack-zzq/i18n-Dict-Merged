@@ -1,0 +1,4 @@
+{
+  "controls.reset.confirm.title": "你确定要重置所有按键绑定吗？",
+  "controls.reset.confirm.body": "这会将所有按键绑定恢复为默认值"
+}

@@ -1,0 +1,7 @@
+{
+  "key.category.minecraft.text.entityculling.title": "EntityCulling",
+  "text.entityculling.blockEntityFrustumCulling": "方块实体视锥体剔除",
+  "text.entityculling.blockEntityFrustumCulling.tooltip": "开启后，将基于相机视锥体剔除视野外的方块实体状态提取。如果你的模组加载器/其他模组没有自带该优化，开启后可提升性能。",
+  "text.entityculling.forceDisplayCulling": "强制展示实体剔除",
+  "text.entityculling.forceDisplayCulling.tooltip": "开启后，会为没有碰撞箱的展示实体分配默认碰撞箱以进行剔除。对于未正确配置展示实体的地图/服务器，该选项可提升性能，但可能会导致显示问题。"
+}

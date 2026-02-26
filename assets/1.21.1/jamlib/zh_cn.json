@@ -1,0 +1,20 @@
+{
+  "config.jamlib.selection_screen_title": "为%s选择配置",
+  "config.jamlib.open": "打开",
+  "config.jamlib.edit_manually": "手动编辑",
+  "config.jamlib.reset": "重置",
+  "config.jamlib.reset_tooltip": "重置为默认值",
+  "config.jamlib.matches_regex_tooltip": "值必须符合以下正则表达式：%s",
+  "config.jamlib.requires_restart_tooltip": "此更改需要重启游戏才能生效",
+  "config.jamlib.within_range_tooltip": "值必须在%d和%d之间",
+  "text.jamlib.renamed_1": "以下模组文件已被重命名——这通常意味着该模组%s。",
+  "text.jamlib.renamed_1.1": "未经授权重新分发",
+  "text.jamlib.renamed_2": "像%s这类网站会%s，还可能被用来%s。官方模组仅可在%s和%s找到。",
+  "text.jamlib.renamed_2.1": "9minecraft",
+  "text.jamlib.renamed_2.2": "伤害模组开发者",
+  "text.jamlib.renamed_2.3": "分发恶意软件",
+  "text.jamlib.renamed_2.4": "CurseForge",
+  "text.jamlib.renamed_2.5": "Modrinth",
+  "text.jamlib.renamed_3": "此提示仅会显示一次。%s。",
+  "text.jamlib.renamed_3.1": "如果你认为这是误报，请联系模组作者"
+}

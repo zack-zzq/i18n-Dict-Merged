@@ -1,0 +1,14 @@
+{
+  "packAction.copyId.description": "按住%s复制",
+  "packAction.copyId.success": "已复制！",
+  "packAction.copyId.title": "复制包ID",
+  "packAction.reloadSettings.description": "按住%s重新加载",
+  "packAction.reloadSettings.success": "已重新加载！",
+  "packAction.reloadSettings.title": "重新加载设置",
+  "packAction.restoreDefaults.description": "按住%s恢复",
+  "packAction.restoreDefaults.success": "已恢复！",
+  "packAction.restoreDefaults.title": "恢复默认包",
+  "packAction.toggleDebug.description": "按住%s切换",
+  "packAction.toggleDebug.success": "已切换！",
+  "packAction.toggleDebug.title": "切换包ID显示"
+}

@@ -1,0 +1,19 @@
+{
+  "tooltip.toms_storage.config_overlay.block": "正在配置方块：%d, %d, %d",
+  "tooltip.toms_storage.config_overlay.block_alt": "正在配置方块：%s",
+  "tooltip.toms_storage.config_overlay.mass_select": "多方块区域批量选择中",
+  "tooltip.toms_storage.config_overlay.select": "多方块区域单次选择中",
+  "tooltip.toms_storage.config_overlay.mass_select.finish": "按%s完成区域选择",
+  "tooltip.toms_storage.config_overlay.mass_select.abort": "按%s + %s取消当前选择",
+  "tooltip.toms_storage.config_overlay.select.single": "按%s添加/移除单个储物容器",
+  "tooltip.toms_storage.config_overlay.select.finish": "在空中按%s完成选择",
+  "tooltip.toms_storage.config_overlay.select.start_mass": "按%s开始区域选择",
+  "tooltip.toms_storage.config_overlay.configure": "按%s配置方块",
+  "tooltip.toms_storage.config_overlay.show": "按%s查看已连接方块",
+  "tooltip.toms_storage.config_overlay.too_far": "待配置方块距离过远",
+  "tooltip.toms_storage.disabled_by_redstone": "被关闭",
+  "config.toms_storage.basic_hopper_cooldown": "基础储物漏斗传输冷却（tick）",
+  "text.autoconfig.toms_storage.option.basicHopperCooldown": "基础储物漏斗传输冷却（tick）",
+  "config.jade.plugin_toms_storage.inventory_hopper": "储物漏斗信息",
+  "overlay.toms_storage.configurator_info": "汤姆简易存储：配置器覆盖层"
+}

@@ -1,0 +1,22 @@
+{
+  "block.eternalnether.cracked_withered_blackstone_wall": "裂纹凋灵黑石墙",
+  "block.eternalnether.warped_nether_brick_wall": "诡异下界砖墙",
+  "block.eternalnether.withered_blackstone_wall": "凋灵黑石墙",
+  "block.eternalnether.withered_bone_block": "凋零骨块",
+  "entity.eternalnether.warped_ender_pearl": "诡异末影珍珠",
+  "item.eternalnether.cutlass": "弯刀",
+  "item.eternalnether.withered_bone": "凋零骨头",
+  "item.eternalnether.withered_bone_meal": "凋灵骨粉",
+  "itemGroup.eternalnether.main": "永恒下界",
+  "jukebox_song.eternalnether.wither_waltz": "Izofar - 凋灵圆舞曲",
+  "subtitles.entity.warped_enderman.ambient": "诡异末影人：低鸣",
+  "subtitles.entity.warped_enderman.death": "诡异末影人：死亡",
+  "subtitles.entity.warped_enderman.hurt": "诡异末影人：受伤",
+  "subtitles.entity.warped_enderman.scream": "诡异末影人：尖叫",
+  "subtitles.entity.warped_enderman.stare": "诡异末影人：喊叫",
+  "subtitles.entity.warped_enderman.teleport": "诡异末影人：传送",
+  "subtitles.entity.wex.ambient": "凋灵恼鬼：恼人",
+  "subtitles.entity.wex.charge": "凋灵恼鬼：尖叫",
+  "subtitles.entity.wex.death": "凋灵恼鬼：死亡",
+  "subtitles.entity.wex.hurt": "凋灵恼鬼：受伤"
+}

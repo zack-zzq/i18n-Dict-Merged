@@ -1,0 +1,4 @@
+{
+  "doesittick.warn.1": "本服务器已安装Does It Tick模组。如果你发现刷怪场离远后停止运作，请尝试使用FTB Chunks / OPAC认领该刷怪场所在区块。你可以在Does It Tick的配置文件中禁用这条提示",
+  "doesittick.warn.2": "已安装Does It Tick模组，但未安装FTB Chunks。如果你发现刷怪场离远后停止运作，请尝试安装FTB Chunks / OPAC并认领该刷怪场所在区块。你可以在Does It Tick的配置文件中禁用这条提示"
+}

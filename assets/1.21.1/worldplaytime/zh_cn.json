@@ -1,0 +1,20 @@
+{
+  "worldplaytime.format": "%s时",
+  "worldplaytime.config.header": "世界游戏时长配置",
+  "worldplaytime.config.category.general": "常规",
+  "worldplaytime.config.category.world_entry": "世界条目",
+  "worldplaytime.config.category.server_entry": "服务器条目",
+  "worldplaytime.config.showServerPlayTime": "显示服务器游戏时长",
+  "worldplaytime.config.serverPlayTimePosition": "服务器游戏时长位置",
+  "worldplaytime.config.serverPlayTimePosition.after_name": "名称之后",
+  "worldplaytime.config.serverPlayTimePosition.behind_count": "计数之后",
+  "worldplaytime.config.serverPlayTimePosition.left": "左",
+  "worldplaytime.config.serverPlayTimePosition.right": "右",
+  "worldplaytime.config.serverPlayTimeColor": "服务器游戏时长颜色",
+  "worldplaytime.config.showWorldPlayTime": "显示世界游戏时长",
+  "worldplaytime.config.worldPlayTimePosition": "世界游戏时长位置",
+  "worldplaytime.config.worldPlayTimePosition.top_right": "右上",
+  "worldplaytime.config.worldPlayTimePosition.left": "左",
+  "worldplaytime.config.worldPlayTimePosition.right": "右",
+  "worldplaytime.config.worldPlayTimeColor": "世界游戏时长颜色"
+}

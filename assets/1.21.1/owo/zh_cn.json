@@ -1,0 +1,111 @@
+{
+  "text.owo.itemGroup.tab_template": [
+    {
+      "index": 0
+    },
+    {
+      "text": " > ",
+      "color": "gray"
+    },
+    {
+      "index": 1,
+      "color": "dark_gray"
+    }
+  ],
+  "text.owo.itemGroup.select_hint": {
+    "text": "Shift-click to select multiple",
+    "color": "gray"
+  },
+  "text.owo.configure_hot_reload.title": "配置热重载",
+  "text.owo.configure_hot_reload.choose_file": "选择文件",
+  "text.owo.configure_hot_reload.save": "保存",
+  "text.owo.configure_hot_reload.model": [
+    {
+      "text": "Model: ",
+      "color": "yellow"
+    },
+    {
+      "index": 0,
+      "color": "gray"
+    }
+  ],
+  "text.owo.configure_hot_reload.reload_from.unset": "未设置",
+  "text.owo.configure_hot_reload.reload_from": [
+    {
+      "text": "Reload from: ",
+      "color": "yellow"
+    },
+    {
+      "index": 0,
+      "color": "gray"
+    }
+  ],
+  "text.owo.config.search": "搜索……",
+  "text.owo.config.search.matches": "%d / %d",
+  "text.owo.config.search.no_matches": "无匹配项",
+  "text.owo.config.must_restart": "你所做的部分更改需要重启才能生效",
+  "text.owo.config.button.exit_minecraft": "退出Minecraft",
+  "text.owo.config.button.ignore_restart": "稍后重启",
+  "text.owo.config.button.range.edit_as_text": "以文本方式编辑",
+  "text.owo.config.button.range.edit_with_slider": "用滑块编辑",
+  "text.owo.config.applies_after_restart": [
+    {
+      "text": "⏻ ",
+      "color": "#FAEA48"
+    },
+    {
+      "text": "This option applies after a restart",
+      "color": "gray"
+    }
+  ],
+  "text.owo.config.managed_by_server": [
+    {
+      "text": "⚑ ",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "This option is being managed by the server\n   Disconnect to edit it",
+      "color": "gray"
+    }
+  ],
+  "text.owo.config.button.reload": "装填弹药",
+  "text.owo.config.button.done": "完成",
+  "text.owo.config.sections_tooltip": "分区",
+  "text.owo.config.sections": {
+    "text": "Sections",
+    "underlined": true
+  },
+  "text.owo.config.list.add_entry": "添加条目",
+  "text.owo.config.boolean_toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " Enabled"
+  ],
+  "text.owo.config.boolean_toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " Disabled"
+  ]
+}

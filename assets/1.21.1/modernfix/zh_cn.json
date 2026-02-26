@@ -1,0 +1,23 @@
+{
+  "modernfix.redirector_installed": "ModernFix 检测到你安装了 Redirector。已知 Redirector 会导致大量奇怪且难以调试的问题，强烈建议你移除它。",
+  "modernfix.option.mixin.perf.dynamic_resources.ldlib": "动态资源的 LDLib 兼容性补丁",
+  "modernfix.option.mixin.perf.compress_unihex_font": "更高效地存储 Unicode 字体的字形。感谢 @AnAwesomGuy 提供该方法。",
+  "modernfix.option.mixin.bugfix.restore_old_dragon_movement": "修复了 MC-272431 漏洞，该漏洞导致末影龙无法像 1.13 及更早版本那样俯冲向传送门。开启后末影龙的飞行方式会和现代玩家习惯的有较大区别，还会移除一轮击杀末影龙的机制，因此默认未开启。感谢 Jukitsu 找出了原版代码中的问题。",
+  "modernfix.option.mixin.bugfix.missing_block_entities": "Hypixel 会向客户端发送缺失部分方块实体数据的区块，导致箱子等方块变为隐形。本修复通过在客户端创建所需数据解决了该问题。对正常的服务器或单人游戏没有任何影响。",
+  "modernfix.option.mixin.bugfix.buffer_builder_leak": "尝试解决模组构造 BufferBuilder 对象导致的内存泄漏问题。在极少数情况下，原问题会导致 JVM 崩溃并生成 hs_err_pid 文件。如果你遇到这类崩溃，请尝试禁用该选项。",
+  "modernfix.option.mixin.bugfix.extra_experimental_screen": "修复了实验性创建的世界第一次重新打开时仍会弹出实验性功能警告的问题。",
+  "modernfix.option.mixin.bugfix.forge_at_inject_error": "修复了 Forge 早期错误处理代码中的一个重大疏漏：该疏漏会导致部分模组完成加载，另一部分却无法加载，通常会引发游戏崩溃，而不会显示预期的错误屏幕。该问题已在 NeoForge 中修复，最终也在足够新版本的 Forge 中得到修复。",
+  "modernfix.option.mixin.bugfix.world_screen_skipped": "修复了 MC-251068 漏洞：删除最后一个存档后会跳转到空的世界列表。",
+  "modernfix.option.mixin.feature.blockentity_incorrect_thread": "**这是调试选项，普通游玩时不应该开启。** 尝试检测模组在错误线程与方块实体交互的问题，让游戏崩溃时输出更多信息，而非给出含义模糊的 ConcurrentModificationException",
+  "modernfix.option.mixin.feature.cause_lag_by_disabling_threads": "禁用游戏对服务器和区块渲染使用工作线程。**几乎所有硬件开启后都会导致性能下降**，仅在你明确知道自己在做什么时才可在客户端开启，通常仅适用于物理CPU核心很少（2核或更少）的硬件。在这类罕见场景下，它可以减少有限核心的资源竞争，从而降低卡顿尖峰。",
+  "modernfix.option.mixin.feature.registry_event_progress": "将 Forge 加载过程的一部分移至后台线程运行，以便在注册内容时显示加载进度。可能和部分GPU驱动（例如 macOS 驱动）存在兼容性问题，因此整合包默认不开启该选项。",
+  "modernfix.option.mixin.feature.remove_chat_signing": "阻止 Minecraft 客户端获取聊天签名密钥对。这会禁用客户端的聊天消息签名功能（效果类似 No Chat Reports，但实现更简单，不过对用户来说不够友好）。",
+  "modernfix.option.mixin.feature.remove_telemetry": "阻止 Minecraft 客户端向 Mojang 发送遥测数据。对于模组化实例来说，这类遥测数据本来就没有什么意义。",
+  "modernfix.option.mixin.perf.chunk_meshing": "对原版的区块网格生成逻辑进行了一些小幅优化（如果模组完全替换了区块渲染，这些优化不会生效）。",
+  "modernfix.option.mixin.perf.faster_structure_location": "提升埋藏宝藏这类结构的定位速度。",
+  "modernfix.option.mixin.perf.forge_registry_alloc": "修复了 Forge 中更多会导致高频注册表方法过度分配内存的疏漏。",
+  "modernfix.option.mixin.perf.memoize_creative_tab_build": "改进了原版现有的创造标签内容缓存机制，同时兼容 JEI/EMI 这类模组的时序要求，可以减少整合包中第一次打开创造物品栏时的卡顿尖峰。",
+  "modernfix.option.mixin.perf.potential_spawns_alloc": "优化了 Forge 查找潜在可生成生物的事件。当没有模组修改潜在生物生成列表时，可以减少对象分配和重建加权列表的开销。",
+  "modernfix.option.mixin.perf.ticking_chunk_alloc": "优化了原版的区块刻逻辑，减少对象分配。",
+  "modernfix.option.mixin.perf.worldgen_allocation": "优化了原版的部分世界生成逻辑，减少对象分配。"
+}

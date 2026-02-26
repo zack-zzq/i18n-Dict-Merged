@@ -1,0 +1,5 @@
+{
+  "block.underlay.overlay": " （遮罩）",
+  "config.jade.plugin_underlay.overlay": "在主世界展示资源占用",
+  "config.jade.plugin_underlay.overlay.tooltip": "显示Underlay遮罩提示"
+}

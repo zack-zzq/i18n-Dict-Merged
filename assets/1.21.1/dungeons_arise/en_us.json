@@ -1,0 +1,16 @@
+{
+  "advancement.dungeons_arise.find_kisegi_sanctuary.title": "Sympathy For The Devil",
+  "advancement.dungeons_arise.find_kisegi_sanctuary.desc": "Find the Kisegi Sanctuary",
+  "advancement.dungeons_arise.find_mining_complex.title": "Feed The Machine",
+  "advancement.dungeons_arise.find_mining_complex.desc": "Find the Mining Complex",
+  "enchantment.dungeons_arise.purification": "Purification",
+  "enchantment.dungeons_arise.purification.desc": "Confers a chance to negate all incoming poisonous and withering effects, releasing a burst of energy that damages nearby enemies.",
+  "enchantment.dungeons_arise.voltaic_shot": "Voltaic Shot",
+  "enchantment.dungeons_arise.voltaic_shot.desc": "Charges arrows with electrical energy, which allows them to fly in a straight line and deliver an explosion.",
+  "enchantment.dungeons_arise.discharge": "Discharge",
+  "enchantment.dungeons_arise.discharge.desc": "Attacking enemies builds up speed, however, high levels of speed are discharged in a violent explosion, damaging both victim and attacker.",
+  "enchantment.dungeons_arise.lolths_curse": "Curse of Lolth",
+  "enchantment.dungeons_arise.lolths_curse.desc": "Bestows a chance to regenerate health when attacking enemies, however, spiders may sprout from their body. Damaging an arthropod will reflect damage to the wielder.",
+  "enchantment.dungeons_arise.ensnaring": "Ensnaring",
+  "enchantment.dungeons_arise.ensnaring.desc": "Confers a chance to inflict greater slowness when damaging enemies, and summons fangs that attack all monsters around them."
+}

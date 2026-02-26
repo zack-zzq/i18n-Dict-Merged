@@ -1,0 +1,11 @@
+{
+  "options.biomeBlendRadius.17": "17x17 (大)",
+  "options.biomeBlendRadius.19": "19x19 (很大)",
+  "options.biomeBlendRadius.21": "21x21 (巨大)",
+  "options.biomeBlendRadius.23": "23x23 (大到眩晕)",
+  "options.biomeBlendRadius.25": "25x25 (犯法级)",
+  "options.biomeBlendRadius.27": "27x27 (高阶)",
+  "options.biomeBlendRadius.29": "29x29 (哇哦!)",
+  "bbb.biomeBlendRadius": "更好的生物群系重混合",
+  "bbb.biomeBlendRadius.tooltip": "控制更好的生物群系重混合所使用的混合半径。 "
+}

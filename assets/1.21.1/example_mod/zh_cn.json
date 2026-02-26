@@ -1,0 +1,18 @@
+{
+  "cerulean.configuration.client": "客户端",
+  "cerulean.configuration.example": "示例",
+  "earlybedtime.configuration.client": "客户端",
+  "earlybedtime.configuration.example": "示例",
+  "immersivearmorhud.configuration.client": "客户端",
+  "immersivearmorhud.configuration.example": "示例",
+  "miningspeedtooltips.configuration.client": "客户端",
+  "miningspeedtooltips.configuration.example": "示例",
+  "packanalytics.configuration.client": "客户端",
+  "packanalytics.configuration.example": "示例",
+  "reset_controls_confirmation.configuration.client": "客户端",
+  "reset_controls_confirmation.configuration.example": "示例",
+  "sodiumoptionsmodcompat.configuration.client": "客户端",
+  "sodiumoptionsmodcompat.configuration.example": "示例",
+  "example_mod.configuration.client": "客户端",
+  "example_mod.configuration.example": "示例"
+}

@@ -1,0 +1,5 @@
+{
+  "text.config.accessories_compat.title": "饰品兼容配置",
+  "text.config.accessories_compat.option.dumpDataWhenNullEntries": "空条目时转储数据",
+  "text.config.accessories_compat.option.dumpDataWhenNullEntries.tooltip": "当Trinkets模组内因空值发生错误，且该错误会导致游戏崩溃时，此选项很有用"
+}

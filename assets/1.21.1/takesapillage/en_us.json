@@ -1,0 +1,21 @@
+{
+  "item.takesapillage.clay_golem_spawn_egg": "Clay Golem Spawn Egg",
+  "jukebox_song.takesapillage.bastille_blues": "izofar - Bastille Blues",
+  "item_group.takesapillage.main_tab": "It Takes A Pillage Continuation",
+  "yacl3.config.takesapillage:takesapillage.category.general": "General",
+  "yacl3.config.takesapillage:takesapillage.category.general.group.pillage_siege": "Pillage Sieges",
+  "yacl3.config.takesapillage:takesapillage.category.mobs": "Mobs",
+  "yacl3.config.takesapillage:takesapillage.category.mobs.group.clay_golem": "Clay Golem",
+  "yacl3.config.takesapillage:takesapillage.category.mobs.group.archer": "Archer",
+  "yacl3.config.takesapillage:takesapillage.category.mobs.group.legioner": "Legioner",
+  "yacl3.config.takesapillage:takesapillage.category.mobs.group.skirmisher": "Skirmisher",
+  "yacl3.config.takesapillage:takesapillage.enableClayGolem": "Enable clay golem",
+  "yacl3.config.takesapillage:takesapillage.replaceIronGolemsWithClayGolems": "Replace all iron golems with clay golems",
+  "yacl3.config.takesapillage:takesapillage.enablePillageSieges": "Enabled pillage sieges",
+  "yacl3.config.takesapillage:takesapillage.enableArcher": "Enabled archer",
+  "yacl3.config.takesapillage:takesapillage.enableArcherInRaids": "Enabled archer in raids",
+  "yacl3.config.takesapillage:takesapillage.enableLegioner": "Enabled legioner",
+  "yacl3.config.takesapillage:takesapillage.enableLegionerInRaids": "Enabled legioner in raids",
+  "yacl3.config.takesapillage:takesapillage.enableSkirmisher": "Enabled skirmisher",
+  "yacl3.config.takesapillage:takesapillage.enableSkirmisherInRaids": "Enabled skirmisher in raids"
+}

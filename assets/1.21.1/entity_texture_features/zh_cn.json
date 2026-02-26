@@ -1,0 +1,15 @@
+{
+  "config.entity_texture_features.settings_button_loc.title": "设置按钮位置",
+  "config.entity_texture_features.settings_button_loc.tooltip": "设置ETF设置按钮在资源包菜单中的显示位置\n也可选择完全禁用它。",
+  "config.entity_texture_features.optifine.prevent_base.title": "禁止基础纹理覆盖",
+  "config.entity_texture_features.optifine.prevent_base.tooltip": "若optifine/etf目录中存在基础纹理，该设置会阻止ETF加载该基础纹理的覆盖\n例如：optifine/random/entity/chicken.png 将不会覆盖原版纹理\n开启后就是OptiFine的默认行为。",
+  "config.entity_texture_features.property_explanation.nbt_vehicle": "NBT 载具\n设置生物所乘坐的实体是否必须拥有匹配的NBT数据值\n工作方式和NBT属性完全一致，只是应用于被乘坐的实体，若实体不存在则判定为不匹配\n§anbtVehicle.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>",
+  "config.entity_texture_features.property_explanation.nbt_client": "NBT 客户端\n设置客户端玩家是否必须拥有匹配的NBT数据值\n工作方式和NBT属性完全一致，只是应用于客户端玩家的NBT\n§anbtClient.<n>.<nbtPath>=<exists:|raw:|print_raw:|print:|range:|regex:|iregex:|pattern:|ipattern:|string_list>",
+  "config.entity_texture_features.property_explanation.biome_tag": "生物群系标签\n选择实体生成所在生物群系可以拥有哪些生物群系标签\n示例: biomeTag.1=is_river magic_mod:magical_biomes\n§abiomeTag.<n>=<list>",
+  "config.entity_texture_features.property_explanation.temperature": "温度\n选择实体生成位置必须满足的温度，该值由生物群系设置和世界高度共同决定，例如：若生物群系会降水，当位置温度低于0.15时会下雪\n示例: temperature.1=0.2-0.15\n§atemperature.<n>=<list>",
+  "config.entity_texture_features.property_explanation.mc_version": "Minecraft 版本\n选择需要匹配的Minecraft版本\n示例: minecraftVersion.1=1.18.2 1.17 1.20-1.99\n§aminecraftVersion.<n>=<list>",
+  "config.entity_texture_features.property_explanation.block_above": "上方方块\n根据实体上方第一个非空气方块变化，无论距离多远\n示例: blockAbove.1=oak_leaves\n§ablockAbove.<n>=<list>",
+  "config.entity_texture_features.property_explanation.block_above_solid": "上方固体方块\n根据实体上方第一个固体非空气方块变化，无论距离多远，仅对找到的第一个固体方块生效\n示例: blockAboveSolid.1=stone\n§ablockAboveSolid.<n>=<list>",
+  "config.entity_texture_features.property_explanation.block_below": "下方方块\n根据实体下方第一个非空气方块变化，无论距离多远\n示例: blockBelow.1=oak_leaves\n§ablockBelow.<n>=<list>",
+  "config.entity_texture_features.property_explanation.block_below_solid": "下方固体方块\n根据实体下方第一个固体非空气方块变化，无论距离多远，仅对找到的第一个固体方块生效\n示例: blockBelowSolid.1=oak_leaves\n§ablockBelowSolid.<n>=<list>"
+}

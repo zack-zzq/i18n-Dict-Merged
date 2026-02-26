@@ -1,0 +1,23 @@
+{
+  "gamerule.doSeasonCycle": "推进季节循环",
+  "desc.sereneseasons.day_counter": "第%s/%s天",
+  "desc.sereneseasons.tropical_day_counter": " (%s/%s)",
+  "desc.sereneseasons.early_spring": "孟春",
+  "desc.sereneseasons.mid_spring": "仲春",
+  "desc.sereneseasons.late_spring": "季春",
+  "desc.sereneseasons.early_summer": "孟夏",
+  "desc.sereneseasons.mid_summer": "仲夏",
+  "desc.sereneseasons.late_summer": "季夏",
+  "desc.sereneseasons.early_autumn": "孟秋",
+  "desc.sereneseasons.mid_autumn": "仲秋",
+  "desc.sereneseasons.late_autumn": "季秋",
+  "desc.sereneseasons.early_winter": "孟冬",
+  "desc.sereneseasons.mid_winter": "仲冬",
+  "desc.sereneseasons.late_winter": "季冬",
+  "desc.sereneseasons.early_wet": "雨季初期",
+  "desc.sereneseasons.mid_wet": "雨季中期",
+  "desc.sereneseasons.late_wet": "雨季末期",
+  "desc.sereneseasons.early_dry": "旱季初期",
+  "desc.sereneseasons.mid_dry": "旱季中期",
+  "desc.sereneseasons.late_dry": "旱季末期"
+}

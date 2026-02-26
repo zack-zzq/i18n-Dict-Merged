@@ -1,0 +1,19 @@
+{
+  "Small Nether Dungeons are currently disabled by default. You can enable them in the mod's config.": "小型下界地牢目前默认禁用，你可以在模组的配置文件中启用它们。",
+  "Banner of Decay": "腐烂旗帜",
+  "Banner of Pork": "猪肉旗帜",
+  "Banner of Rage": "愤怒旗帜",
+  "A Special Addition": "特殊赠品",
+  "Find a Small Nether Dungeon": "找到一个小型下界地牢",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon": "小型下界地牢",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.@Tooltip": "小型下界地牢",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount": "小型下界地牢旗帜数量上限。",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[0]": "单个小型下界地牢中可生成的旗帜最大数量。",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[1]": "默认：2",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.enabled": "允许小型下界地牢生成",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.enabled.@Tooltip": "允许小型下界地牢生成",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls": "由刷怪笼生成的凋灵骷髅可以掉落头颅",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "小型下界地牢生成的凋灵骷髅是否可以掉落凋灵骷髅头颅。",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods": "由刷怪笼生成的烈焰人可以掉落烈焰棒",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "小型下界地牢生成的烈焰人是否有概率掉落烈焰棒。"
+}

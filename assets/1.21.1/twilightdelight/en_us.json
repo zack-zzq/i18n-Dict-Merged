@@ -1,0 +1,19 @@
+{
+  "effect.twilightdelight.aurora_glowing.desc": "Make yourself glow with rainbow color. All entities appear rainbow glowing to you",
+  "effect.twilightdelight.fire_range.desc": "Ignite enemies around you, and make you cannot be ignited.",
+  "effect.twilightdelight.frozen_range.desc": "Freeze enemies around you, and make you immune to Frosty. Can also freeze items.",
+  "effect.twilightdelight.poison_range.desc": "Poison enemies around you, and make you immune to Poison.",
+  "effect.twilightdelight.temporal_sadness.desc": "Reduce movement speed and attack damage.",
+  "twilightdelight.configuration.auroraPeriod": "Period for aurora color change",
+  "twilightdelight.configuration.auroraPeriod.tooltip": " Default: 30\n Range: 0 ~ 10000",
+  "twilightdelight.configuration.auroraRange": "Range for aurora range",
+  "twilightdelight.configuration.auroraRange.tooltip": " Default: 24\n Range: 0 ~ 128",
+  "twilightdelight.configuration.effectRange": "Range for hostile effects, such as fire/frost/poison",
+  "twilightdelight.configuration.effectRange.tooltip": " Default: 6\n Range: 0 ~ 128",
+  "twilightdelight.configuration.section.twilightdelight.client.toml": "Twilight Flavors & Delight Client Configuration",
+  "twilightdelight.configuration.section.twilightdelight.client.toml.title": "Twilight Flavors & Delight Client Configuration",
+  "twilightdelight.configuration.section.twilightdelight.server.toml": "Twilight Flavors & Delight Server Configuration",
+  "twilightdelight.configuration.section.twilightdelight.server.toml.title": "Twilight Flavors & Delight Server Configuration",
+  "twilightdelight.configuration.title": "Twilight Flavors & Delight Configuration",
+  "twilightdelight.title": "Twilight Flavors & Delight"
+}
