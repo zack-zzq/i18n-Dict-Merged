@@ -1,0 +1,119 @@
+name: Merge and Release Dictionary
+
+on:
+  # 定时任务：每天 UTC 12:00 检查上游是否有新 Release
+  schedule:
+    - cron: '0 12 * * *'
+
+  # 仓库 assets 目录变更时立即触发
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+
+  # 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # --- 上游更新检测（仅 schedule 触发时执行） ---
+      - name: Check upstream for new release
+        id: check_upstream
+        if: github.event_name == 'schedule'
+        run: |
+          UPSTREAM_TAG=$(curl -s \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/VM-Chinese-translate-group/i18n-Dict-Extender/releases/latest \
+            | jq -r '.tag_name // empty')
+
+          echo "Upstream latest tag: $UPSTREAM_TAG"
+
+          LAST_TAG=""
+          if [ -f last_upstream_tag.txt ]; then
+            LAST_TAG=$(cat last_upstream_tag.txt)
+          fi
+
+          echo "Last synced tag: $LAST_TAG"
+
+          if [ "$UPSTREAM_TAG" = "$LAST_TAG" ]; then
+            echo "上游无更新，跳过本次运行。"
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          else
+            echo "检测到上游更新: $LAST_TAG -> $UPSTREAM_TAG"
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "upstream_tag=$UPSTREAM_TAG" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Skip if no upstream update (schedule only)
+        if: github.event_name == 'schedule' && steps.check_upstream.outputs.should_run == 'false'
+        run: |
+          echo "上游无更新，退出。"
+          exit 0
+
+      # --- 构建与合并 ---
+      - name: Set up Python
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3'
+
+      - name: Cache pip dependencies
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scripts/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run merge script
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        run: python scripts/merge_dict.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- 生成 Release ---
+      - name: Generate release tag
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        id: release_info
+        run: |
+          echo "RELEASE_TAG=merged-dict-$(date -u +'%Y-%m-%d-%H%M')" >> $GITHUB_ENV
+          echo "RELEASE_NAME=合并词典更新 $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_ENV
+
+      - name: Create Release
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          name: ${{ env.RELEASE_NAME }}
+          body_path: output/release_body.md
+          files: |
+            output/Dict.json
+            output/Dict-Mini.json
+            output/Dict-Sqlite.db
+            output/diff.json
+
+      # --- 更新上游 tag 记录 ---
+      - name: Update last upstream tag
+        if: github.event_name != 'schedule' || steps.check_upstream.outputs.should_run == 'true'
+        run: |
+          if [ -f output/last_upstream_tag.txt ]; then
+            cp output/last_upstream_tag.txt last_upstream_tag.txt
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add last_upstream_tag.txt
+            git diff --cached --quiet || git commit -m "chore: update last upstream tag"
+            git push
+          fi
