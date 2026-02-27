@@ -91,7 +91,7 @@
   "item.storagedrawers.max_redstone_upgrade.desc": "根据物品数量最多的一格输出红石信号",
   "item.storagedrawers.upgrade_template": "升级模板",
   "item.storagedrawers.drawer_key": "抽屉钥匙",
-  "item.storagedrawers.drawer_key.desc": "锁定和解锁抽屉\n持握在副手时可锁定新放置的抽屉",
+  "item.storagedrawers.drawer_key.desc": "可锁定和解锁抽屉\n持于副手可自动锁定新放置的抽屉",
   "item.storagedrawers.shroud_key": "隐蔽钥匙",
   "item.storagedrawers.shroud_key.desc": "显示或隐藏物品图标",
   "item.storagedrawers.quantify_key": "数量钥匙",

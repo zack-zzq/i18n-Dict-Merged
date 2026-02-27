@@ -10,7 +10,7 @@
   "config.jade.plugin_create.copper_backtank": "铜背罐",
   "config.jade.plugin_create.goggles": "集成护目镜",
   "config.jade.plugin_create.goggles.requires_goggles": "需要护目镜",
-  "config.jade.plugin_create.goggles.detailed": "仅限详细模式",
+  "config.jade.plugin_create.goggles.detailed": "仅详细模式",
   "config.jade.plugin_tconstruct.casting_table": "铸件台",
   "config.jade.plugin_tconstruct.drain": "排液口与导管",
   "config.jade.plugin_mcjtylib.jadeaddons": "启用",

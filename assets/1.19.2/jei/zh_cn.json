@@ -1,5 +1,5 @@
 {
   "config.jei.advanced.addBookmarksToFront": "置顶添加书签",
-  "config.jei.advanced.addBookmarksToFront.comment": "若设为真，新书签会添加到书签列表的开头。若设为假，新书签会添加到书签列表的末尾",
+  "config.jei.advanced.addBookmarksToFront.comment": "开启后，新书签会添加到书签列表的开头。关闭后，新书签会添加到书签列表的末尾",
   "jei.message.config.folder": "点击此处打开JEI配置文件夹"
 }

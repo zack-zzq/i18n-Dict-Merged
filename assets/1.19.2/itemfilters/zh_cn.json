@@ -33,13 +33,13 @@
   "item.itemfilters.weak_nbt": "NBT过滤器（弱）",
   "item.itemfilters.weak_nbt.description": "匹配部分NBT",
   "item.itemfilters.custom": "自定义过滤器",
-  "item.itemfilters.custom.description": "需要模组或脚本（通常为KubeJS）才能正常工作",
+  "item.itemfilters.custom.description": "需要一个模组或脚本（通常是 KubeJS）才能正常工作",
   "itemfilters.variants": "变体 [%d]",
-  "itemfilters.help_text.variants": "Tab、滚轮、方向键上/下：调整高亮\n回车：选择高亮项",
+  "itemfilters.help_text.variants": "Tab、滚轮、方向键上下：调整高亮\n回车：选择高亮项",
   "itemfilters.help_text.filter": "过滤器（右键清除）",
-  "itemfilters.help_text.nbt": "NBT字符串\n▶ 示例：{ text:\"hello\", value: 1, active: true }",
-  "itemfilters.help_text.weak_nbt": "弱NBT字符串\n▶ 示例：{ text:\"hello\", value: 1, active: true }\n▶ 仅检查提供的NBT字段（物品上的其他字段都会被忽略）",
-  "itemfilters.help_text.regex": "正则表达式\n 匹配物品ID\n▶ 示例：\"^minecraft:\" 匹配所有原版物品",
+  "itemfilters.help_text.nbt": "NBT 字符串\n▶ 示例：{ text:\"hello\", value: 1, active: true }",
+  "itemfilters.help_text.weak_nbt": "弱 NBT 字符串\n▶ 示例：{ text:\"hello\", value: 1, active: true }\n▶ 仅检查提供的 NBT 字段（物品的其他所有字段都会被忽略）",
+  "itemfilters.help_text.regex": "正则表达式\n匹配物品 ID\n▶ 示例：\"^minecraft:\" 匹配所有原版物品",
   "itemfilters.help_text.max_count": "最大堆叠数\n▶ 也可使用关系运算符，例如 \"<64\" 或 \">=16\"",
-  "itemfilters.help_text.damage": "物品损耗值\n▶ 也可使用关系运算符，例如 \"<10\" 或 \">=5\"\n 还可使用百分比，例如 \">50%\""
+  "itemfilters.help_text.damage": "物品损伤值\n▶ 也可使用关系运算符，例如 \"<10\" 或 \">=5\"\n还可按百分比使用，例如 \">50%\""
 }

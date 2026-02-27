@@ -1,7 +1,7 @@
 {
   "gui.jade.disabled_by_mods": "该选项已被以下模组禁用：",
   "gui.jade.server_features": "*{0} {0,choice,1#服务器功能|1<服务器功能}",
-  "gui.jade.server_features.tip": "本页包含{0} {0,choice,1#服务器端功能|1<服务器端功能}。\n在服务端安装Jade即可完全启用这些功能。",
+  "gui.jade.server_features.tip": "本页面包含{0} {0,choice,1#服务器功能|1<服务器功能}。\n在服务端安装Jade即可完整启用这些功能。",
   "narration.jade.blockpos": "X%s Y%s Z%s ",
   "config.jade.debug_mode": "调试模式",
   "config.jade.display_mode_lite_desc.fabric": "按住Shift以显示更多信息",
@@ -38,7 +38,7 @@
   "jade.seconds": "%d秒",
   "jade.error": "<%s模组发生错误，请上报>",
   "jade.blockpos": "%s%s%s",
-  "jade.distance1": " [%s]",
+  "jade.distance1": " 距离[%s]",
   "toast.jade.toggle_hint.1": "Jade 已关闭",
   "toast.jade.toggle_hint.2": "再次按下%s重新打开",
   "__comment": "仅供测试：",

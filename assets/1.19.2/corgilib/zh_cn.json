@@ -1,8 +1,8 @@
 {
-  "corgilib.worldRegistryExport.exists": "世界生成导出文件已存在！点击此处查看：%s！",
-  "corgilib.worldRegistryExport.failed": "哎呀，无法创建世界生成导出文件，请查看你的latest.log！",
-  "corgilib.worldRegistryExport.singleplayer": "世界生成导出命令必须在单人游戏中使用！",
-  "corgilib.worldRegistryExport.starting": "正在开始世界生成导出，可能会造成服务器卡顿和内存占用升高……",
-  "corgilib.worldRegistryExport.success": "世界生成导出成功！点击此处查看文件：%s！",
+  "corgilib.worldRegistryExport.exists": "世界生成导出文件已存在！在此处查看：%s！",
+  "corgilib.worldRegistryExport.failed": "哎呀，无法创建世界生成导出文件，请检查你的latest.log！",
+  "corgilib.worldRegistryExport.singleplayer": "世界生成导出命令必须在单人模式中使用！",
+  "corgilib.worldRegistryExport.starting": "正在开始世界生成导出，可能会造成服务器卡顿与高内存占用……",
+  "corgilib.worldRegistryExport.success": "世界生成导出成功！在此处查看文件：%s！",
   "corgilib.clickevent.hovertext": "点击打开！"
 }
