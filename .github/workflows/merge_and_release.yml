@@ -104,6 +104,7 @@ jobs:
             output/Dict-Mini.json
             output/Dict-Sqlite.db
             output/diff.json
+            output/patchouli_books.json
 
       # --- 更新上游 tag 记录 ---
       - name: Update last upstream tag
