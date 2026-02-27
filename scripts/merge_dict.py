@@ -27,6 +27,7 @@ JSON_FILENAME = "Dict.json"
 MINI_JSON_FILENAME = "Dict-Mini.json"
 DIFF_JSON_FILENAME = "diff.json"
 RELEASE_BODY_FILENAME = "release_body.md"
+PATCHOULI_JSON_FILENAME = "patchouli_books.json"
 
 UPSTREAM_REPO = "VM-Chinese-translate-group/i18n-Dict-Extender"
 
@@ -127,9 +128,13 @@ def scan_assets():
 
             en_path = modid_dir / "en_us.json"
             zh_path = modid_dir / "zh_cn.json"
+            patchouli_path = modid_dir / "patchouli.json"
 
-            if not en_path.exists() or not zh_path.exists():
-                print(f"  跳过 {version}/{modid_dir.name}：缺少 en_us.json 或 zh_cn.json")
+            has_dict = en_path.exists() and zh_path.exists()
+            has_patchouli = patchouli_path.exists()
+
+            if not has_dict and not has_patchouli:
+                print(f"  跳过 {version}/{modid_dir.name}：既没有字典文件也没找到 patchouli.json")
                 continue
 
             # 默认值：从目录名推断
@@ -152,32 +157,51 @@ def scan_assets():
                 "version": version,
                 "modid": modid,
                 "curseforge": curseforge,
-                "en_path": en_path,
-                "zh_path": zh_path,
+                "en_path": en_path if has_dict else None,
+                "zh_path": zh_path if has_dict else None,
+                "patchouli_path": patchouli_path if has_patchouli else None,
                 "dir_label": f"{version_dir.name}/{modid_dir.name}",
             })
 
     return entries
 
 
-def merge_mod_entries(cursor, mod_info):
+def merge_mod_entries(cursor, mod_info, global_patchouli: dict[str, str]):
     """
-    将单个模组的翻译条目合并到数据库中。
+    将单个模组的翻译条目合并到数据库中，并将 patchouli 条目合并至全局字典。
 
-    返回: (insert_count, update_count, skipped_count)
+    返回: (insert_count, update_count, skipped_count, diff_entries)
     """
     en_path = mod_info["en_path"]
     zh_path = mod_info["zh_path"]
+    patchouli_path = mod_info["patchouli_path"]
     modid = mod_info["modid"]
     version = mod_info["version"]
     curseforge = mod_info["curseforge"]
 
-    with open(en_path, "r", encoding="utf-8") as f:
-        en_data = json.load(f)
-    with open(zh_path, "r", encoding="utf-8") as f:
-        zh_data = json.load(f)
+    to_update = []
+    to_insert = []
+    diff_entries = []
+    skipped = 0
+    
+    # --- 合并 Patchouli 书本翻译 ---
+    if patchouli_path:
+        with open(patchouli_path, "r", encoding="utf-8") as f:
+            patchouli_data = json.load(f)
+            # 全局 Patchouli 书本不再区分模组，使用原始的键直接合并
+            for k, v in patchouli_data.items():
+                if isinstance(v, str):
+                    global_patchouli[k] = v
+                    
+    # --- 合并 SQLite 字典 ---
+    common_keys = set()
+    if en_path and zh_path:
+        with open(en_path, "r", encoding="utf-8") as f:
+            en_data = json.load(f)
+        with open(zh_path, "r", encoding="utf-8") as f:
+            zh_data = json.load(f)
 
-    common_keys = en_data.keys() & zh_data.keys()
+        common_keys = en_data.keys() & zh_data.keys()
 
     # 查询现有条目，构建 key -> ID 的映射
     cursor.execute(
@@ -359,13 +383,14 @@ def main():
     # 3. 逐个合并
     summaries = []
     all_diff_entries = []
+    global_patchouli = {}
 
     for mod_info in mod_entries:
         label = mod_info["dir_label"]
         print(f"--- 处理: {label} (modid={mod_info['modid']}, version={mod_info['version']}) ---")
 
         try:
-            inserted, updated, skipped, diff_entries = merge_mod_entries(cursor, mod_info)
+            inserted, updated, skipped, diff_entries = merge_mod_entries(cursor, mod_info, global_patchouli)
             all_diff_entries.extend(diff_entries)
             print(f"  完成: 新增 {inserted} / 更新 {updated} / 跳过 {skipped}")
             summaries.append({
@@ -401,6 +426,14 @@ def main():
     with open(diff_path, "w", encoding="utf-8") as f:
         json.dump(all_diff_entries, f, ensure_ascii=False, indent=4)
     print(f"{DIFF_JSON_FILENAME} 生成完毕。")
+
+    # 5.1 生成 patchouli_books.json
+    if global_patchouli:
+        patchouli_path = OUTPUT_DIR / PATCHOULI_JSON_FILENAME
+        print(f"\n正在生成 {PATCHOULI_JSON_FILENAME}，包含 {len(global_patchouli)} 个跨模组翻译条目...")
+        with open(patchouli_path, "w", encoding="utf-8") as f:
+            json.dump(global_patchouli, f, ensure_ascii=False, indent=4)
+        print(f"{PATCHOULI_JSON_FILENAME} 生成完毕。")
 
     # 6. 生成 release body
     release_body_path = OUTPUT_DIR / RELEASE_BODY_FILENAME
