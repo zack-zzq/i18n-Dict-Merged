@@ -1,0 +1,16 @@
+{
+  "advancement.dungeons_arise.find_kisegi_sanctuary.title": "同情恶魔",
+  "advancement.dungeons_arise.find_kisegi_sanctuary.desc": "找到Kisegi圣所",
+  "advancement.dungeons_arise.find_mining_complex.title": "供养机器",
+  "advancement.dungeons_arise.find_mining_complex.desc": "找到综合采矿场",
+  "enchantment.dungeons_arise.purification": "净化",
+  "enchantment.dungeons_arise.purification.desc": "有一定几率抵消你受到的所有中毒与凋零效果，并释放能量爆发伤害附近的敌人",
+  "enchantment.dungeons_arise.voltaic_shot": "雷电射击",
+  "enchantment.dungeons_arise.voltaic_shot.desc": "为箭矢充入电能，让箭矢沿直线飞行，并在命中后引发爆炸",
+  "enchantment.dungeons_arise.discharge": "释能",
+  "enchantment.dungeons_arise.discharge.desc": "攻击敌人会提升你的速度，速度叠至高层后会引发剧烈爆炸，同时伤及目标和攻击者",
+  "enchantment.dungeons_arise.lolths_curse": "罗丝的诅咒",
+  "enchantment.dungeons_arise.lolths_curse.desc": "攻击敌人时有一定几率回复生命值，但敌人尸体可能会钻出蜘蛛。伤害节肢生物时，伤害会反弹给使用者",
+  "enchantment.dungeons_arise.ensnaring": "诱捕",
+  "enchantment.dungeons_arise.ensnaring.desc": "伤害敌人时有一定几率施加强效减速，并召唤尖牙攻击目标周围的所有怪物"
+}

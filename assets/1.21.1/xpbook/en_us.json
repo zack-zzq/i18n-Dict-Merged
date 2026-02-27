@@ -1,0 +1,6 @@
+{
+  "item.xpbook.xp_book": "OLD - RIGHTCLICK TO CONVERT",
+  "xpbook.tooltip.store.previous": "Sneak + right-click to store at most one level of XP",
+  "xpbook.tooltip.retrieve.next": "Right-click to retrieve at most one level of XP",
+  "xpbook.tooltip.retrieve.orb": "Creates XP orbs"
+}

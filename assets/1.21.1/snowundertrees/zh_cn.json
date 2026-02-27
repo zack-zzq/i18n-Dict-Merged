@@ -1,0 +1,8 @@
+{
+  "snowundertrees.configuration.enable_biome_feature": "启用生物群系特征",
+  "snowundertrees.configuration.enable_biome_feature.tooltip": "禁用此选项后，区块初次生成时不会在树下生成雪",
+  "snowundertrees.configuration.enable_when_snowing": "下雪时启用",
+  "snowundertrees.configuration.enable_when_snowing.tooltip": "禁用此选项后，下雪时不会在树下堆积积雪",
+  "snowundertrees.configuration.filtered_biomes": "已过滤生物群系",
+  "snowundertrees.configuration.filtered_biomes.tooltip": "在此添加生物群系ID，添加的生物群系将不受本模组影响。你可以在F3调试屏幕查看当前所在生物群系的ID。例如，平原生物群系的ID格式如下：minecraft:plains"
+}

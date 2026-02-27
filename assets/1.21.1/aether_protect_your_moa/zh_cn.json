@@ -1,0 +1,16 @@
+{
+  "item.aether_protect_your_moa.diamond_moa_armor": "钻石恐鸟铠甲",
+  "item.aether_protect_your_moa.golden_moa_armor": "金恐鸟铠甲",
+  "item.aether_protect_your_moa.gravitite_moa_armor": "浮空晶恐鸟铠甲",
+  "item.aether_protect_your_moa.iron_moa_armor": "铁恐鸟铠甲",
+  "item.aether_protect_your_moa.leather_moa_armor": "皮革恐鸟铠甲",
+  "item.aether_protect_your_moa.zanite_moa_armor": "扎尼特恐鸟铠甲",
+  "lore.item.aether_protect_your_moa.diamond_moa_armor": "供你的恐鸟穿戴的钻石铠甲，能提供很强的防护。",
+  "lore.item.aether_protect_your_moa.golden_moa_armor": "供你的恐鸟穿戴的金制铠甲，能提供不错的防护。",
+  "lore.item.aether_protect_your_moa.gravitite_moa_armor": "供你的恐鸟穿戴的浮空晶铠甲，能提供很强的防护，还能增加恐鸟的跳跃次数。",
+  "lore.item.aether_protect_your_moa.iron_moa_armor": "供你的恐鸟穿戴的铁制铠甲，能提供一定的防护。",
+  "lore.item.aether_protect_your_moa.leather_moa_armor": "供你的恐鸟穿戴的可染色皮革铠甲，仅能提供少量防护。",
+  "lore.item.aether_protect_your_moa.zanite_moa_armor": "供你的恐鸟穿戴的扎尼特铠甲，能提供一定的防护。",
+  "pack.aether_protect_your_moa.mod.description": "《以太》：保护你的恐鸟 资源",
+  "subtitles.aether_protect_your_moa.entity.moa.chest": "恐鸟装备胸甲"
+}

@@ -1,0 +1,18 @@
+{
+  "text.nea.tab.settings": "Settings",
+  "text.nea.tab.holdup": "Hold Up Items",
+  "text.nea.line.legacy": "Unfinished/Deprecated",
+  "text.nea.line.fun": "Fun",
+  "text.nea.line.fixes": "Fixes",
+  "text.nea.line.holdup": "Hold Up",
+  "text.nea.line.rotation": "Rotation",
+  "text.nea.line.smoothing": "Smoothing",
+  "text.nea.line.animations": "Animations",
+  "text.nea.enable.enableHorseLegAnimation": "Horse Riding Leg Animation",
+  "text.nea.enable.enableHorseLegAnimation.tooltip": "Animates the player's legs in a different pose when riding a horse",
+  "text.nea.holdUpItemsMode.CONFIG_INVERTED": "Not Config Items",
+  "text.nea.enable.clampCrossbowAnimations": "Clamp Crossbow Animations",
+  "text.nea.enable.clampCrossbowAnimations.tooltip": "Clamps the animations",
+  "text.nea.enable.customBowRotationLock": "Custom Bow Rotation Lock",
+  "text.nea.enable.customBowRotationLock.tooltip": "Puts the body at an angle while using the custom bow animation"
+}

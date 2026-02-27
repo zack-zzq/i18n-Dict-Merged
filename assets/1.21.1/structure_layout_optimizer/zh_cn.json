@@ -1,0 +1,8 @@
+{
+  "config.structure_layout_optimizer.title": "结构布局优化器",
+  "config.structure_layout_optimizer.desc": "对拼图结构生成进行优化的尝试",
+  "config.structure_layout_optimizer.link.bug_report": "报告漏洞",
+  "config.structure_layout_optimizer.link.license": "许可证",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list": "对打乱后的模板池元素列表去重",
+  "config.structure_layout_optimizer.deduplicate_shuffled_template_pool_element_list.desc": "是否使用替代策略，让结构布局生成速度比本模组默认的模板池权重优化更快一些。该替代策略通过修改结构从模板池收集的构件列表，去除其中的重复条目来实现。\n这不会破坏结构生成，但会让结构布局与关闭此配置时不同（破坏原版种子生成一致性）。在包含大量结构模组，且这些模组的模板池使用极高权重值的大型整合包中，这点速度提升是值得的。\n\n优点：高权重模板池结构可额外获得一点性能提升\n缺点：失去原版种子结构布局的生成一致性。（结构生成不会损坏，只是布局有所不同）"
+}

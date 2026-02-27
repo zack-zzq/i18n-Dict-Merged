@@ -1,0 +1,17 @@
+{
+  "sodium.dynamiclights.options.page": "动态光源",
+  "sodium.dynamiclights.options.mode": "质量模式",
+  "sodium.dynamiclights.options.mode.desc": "配置动态光源的更新速率",
+  "sodium.dynamiclights.options.self": "手持光源",
+  "sodium.dynamiclights.options.self.desc": "启用第一人称动态光照。如果你使用的光影自带动态光照，推荐关闭此选项",
+  "sodium.dynamiclights.options.entities": "动态实体光照",
+  "sodium.dynamiclights.options.entities.desc": "开启后，实体（例如生物和掉落物品）将拥有动态光照",
+  "sodium.dynamiclights.options.blockentities": "方块实体光照",
+  "sodium.dynamiclights.options.blockentities.desc": "开启后，方块实体将拥有动态光照",
+  "sodium.dynamiclights.options.underwater": "水下熄灭",
+  "sodium.dynamiclights.options.underwater.desc": "开启对水敏感光源的检测。这意味着部分物品浸没在水中时不会发光",
+  "sodium.dynamiclights.options.tnt": "TNT光照质量",
+  "sodium.dynamiclights.options.tnt.desc": "配置TNT光照的更新频率。",
+  "sodium.dynamiclights.options.creeper": "苦力怕光照质量",
+  "sodium.dynamiclights.options.creeper.desc": "配置苦力怕光照的更新频率。"
+}

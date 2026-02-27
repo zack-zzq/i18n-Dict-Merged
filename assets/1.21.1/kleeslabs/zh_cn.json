@@ -1,0 +1,9 @@
+{
+  "config.kleeslabs.title": "KleeSlabs",
+  "config.kleeslabs.mode": "模式",
+  "config.kleeslabs.mode.tooltip": "控制KleeSlabs的触发时机：始终触发、仅潜行时触发，或仅不潜行时触发",
+  "config.kleeslabs.disabledCompat": "禁用兼容性",
+  "config.kleeslabs.disabledCompat.tooltip": "需要禁用兼容性的模组ID",
+  "config.kleeslabs.dumpSlabs": "调试转储半砖",
+  "config.kleeslabs.dumpSlabs.tooltip": "仅供开发用途。设为true后，KleeSlabs会在世界加载时转储所有名称包含单词“slab”的物品列表。"
+}

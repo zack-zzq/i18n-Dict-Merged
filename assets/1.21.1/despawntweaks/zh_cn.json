@@ -1,0 +1,7 @@
+{
+  "despawntweaks.configuration.Structures": "结构",
+  "despawntweaks.configuration.StructuresMods": "结构模组",
+  "despawntweaks.configuration.allowEquipmentDrops": "允许掉落装备",
+  "despawntweaks.configuration.allowMobsSpawnedBySpawnersToDespawn": "允许刷怪笼生成的生物自然消失",
+  "despawntweaks.configuration.enableLetMeDespawnOptimization": "启用LetMeDespawn优化"
+}

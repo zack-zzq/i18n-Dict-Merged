@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "请使用/locate structure betterjungletemples:jungle_temple代替！",
+  "text.autoconfig.betterjungletemples-fabric-1_21.title": "YUNG的更好丛林神庙",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples": "YUNG的更好丛林神庙",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general": "常规",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.@Tooltip": "常规设置",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat": "Mod兼容",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.@Tooltip": "模组兼容性设置",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples": "禁用原版丛林神庙",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "是否应当禁用原版丛林神庙。",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled": "启用Pick Your Poison兼容性",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "是否允许PYP毒镖在更好丛林神庙中生成。"
+}

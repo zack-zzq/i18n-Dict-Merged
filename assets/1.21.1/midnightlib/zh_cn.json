@@ -1,0 +1,8 @@
+{
+  "midnightlib.modrinth": "Modrinth",
+  "midnightlib.curseforge": "CurseForge",
+  "midnightlib.wiki": "维基",
+  "midnightconfig.action.list_index": "正在编辑索引%s处的列表",
+  "midnightconfig.action.color_chooser": "打开颜色选择器",
+  "midnightconfig.action.file_chooser": "打开文件选择器"
+}

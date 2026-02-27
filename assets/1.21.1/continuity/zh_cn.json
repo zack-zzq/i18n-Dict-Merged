@@ -1,0 +1,6 @@
+{
+  "resourcePack.continuity.default.name": "默认连接纹理",
+  "resourcePack.continuity.default.description": "玻璃、砂岩、书架",
+  "resourcePack.continuity.glass_pane_culling_fix.name": "玻璃板面剔除修复",
+  "resourcePack.continuity.glass_pane_culling_fix.description": "剔除玻璃板之间的面"
+}

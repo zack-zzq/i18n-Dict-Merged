@@ -1,0 +1,14 @@
+{
+  "block.wetland_whimsy.bloodcap_mushroom_block": "血帽蘑菇块",
+  "wetland_whimsy.configuration.ancient_pot_max_particles": "远古陶罐最大粒子数",
+  "wetland_whimsy.configuration.ancient_pot_max_particles.tooltip": "远古陶罐最多可生成的粒子数量",
+  "wetland_whimsy.configuration.disable_vanilla_swamp_huts": "禁用原版沼泽小屋",
+  "wetland_whimsy.configuration.disable_vanilla_swamp_huts.tooltip": "是否禁用原版沼泽小屋",
+  "wetland_whimsy.configuration.generate_marsh": "生成湿地",
+  "wetland_whimsy.configuration.generate_marsh.tooltip": "是否允许生成湿地群系\n\n需要重启游戏",
+  "wetland_whimsy.configuration.modify_trades": "修改交易",
+  "wetland_whimsy.configuration.modify_trades.tooltip": "是否修改村民交易",
+  "wetland_whimsy.configuration.section.wetland.whimsy.common.toml.title": "趣味湿地配置",
+  "wetland_whimsy.configuration.upgrade_disks": "升级圆盘",
+  "wetland_whimsy.configuration.upgrade_disks.tooltip": "是否升级在水域中找到的“圆盘”"
+}

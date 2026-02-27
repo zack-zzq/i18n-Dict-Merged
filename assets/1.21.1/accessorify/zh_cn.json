@@ -1,0 +1,4 @@
+{
+  "accessorify.client_config.moddedLanternWorkaround": "模组灯笼兼容修复",
+  "accessorify.client_config.moddedLanternWorkaround.desc": "在首次加载世界时重载资源包，让装备的模组灯笼能在玩家身上正确显示。仅当你想要穿戴模组添加的灯笼时才需要启用此选项。"
+}

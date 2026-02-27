@@ -1,0 +1,14 @@
+{
+  "entity.hybrid-aquatic.ocean_sunfish": "翻车鱼",
+  "entity.hybrid-aquatic.pleco": "清道夫",
+  "entity.hybrid-aquatic.shiner": "光鲦",
+  "entity.hybrid-aquatic.trout": "鳟鱼",
+  "item.hybrid-aquatic.ocean_sunfish": "翻车鱼",
+  "item.hybrid-aquatic.ocean_sunfish_spawn_egg": "翻车鱼刷怪蛋",
+  "item.hybrid-aquatic.pleco": "清道夫",
+  "item.hybrid-aquatic.pleco_spawn_egg": "清道夫刷怪蛋",
+  "item.hybrid-aquatic.shiner_spawn_egg": "光鲦刷怪蛋",
+  "item.hybrid-aquatic.trout_spawn_egg": "鳟鱼刷怪蛋",
+  "modmenu.nameTranslation.hybrid-aquatic": "混合水生生物",
+  "profile.item.hybrid-aquatic.ocean_sunfish": "翻车鱼，又称翻车鲀，是最重的硬骨鱼之一，可通过扁平圆盘状的身形和喜爱在海洋表层晒太阳的习性辨认。"
+}

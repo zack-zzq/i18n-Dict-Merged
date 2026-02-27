@@ -1,0 +1,6 @@
+{
+  "item.xpbook.xp_book": "经验手册",
+  "xpbook.tooltip.store.previous": "潜行+右击可储存最多1级经验",
+  "xpbook.tooltip.retrieve.next": "右击可取出最多1级经验",
+  "xpbook.tooltip.retrieve.orb": "生成经验球"
+}

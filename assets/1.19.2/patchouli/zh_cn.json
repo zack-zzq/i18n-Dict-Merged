@@ -1,0 +1,10 @@
+{
+  "item.patchouli.guide_book": "指南书",
+  "item.patchouli.guide_book.undefined": "无效书：ID未定义",
+  "item.patchouli.guide_book.invalid": "无效书：%s",
+  "item.patchouli:pamphlet.name": "测试手册",
+  "item.patchouli:pamphlet.landing": "一本测试小册子，这是一本仅包含单个类别的书。",
+  "patchouli.gui.lexicon.button.toggle_mock_header": "切换模拟页头",
+  "patchouli.gui.lexicon.button.mark_all_read": "标记全部为已读",
+  "patchouli.gui.lexicon.button.mark_category_read": "标记此类别为已读"
+}

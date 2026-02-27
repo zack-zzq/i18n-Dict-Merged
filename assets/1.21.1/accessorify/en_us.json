@@ -1,0 +1,4 @@
+{
+  "accessorify.client_config.moddedLanternWorkaround": "Modded lantern workaround",
+  "accessorify.client_config.moddedLanternWorkaround.desc": "Does a resource pack reload on first world load to align modded lanterns to display correctly on the player when equipped. Only needed if you want to wear lanterns added by mods."
+}

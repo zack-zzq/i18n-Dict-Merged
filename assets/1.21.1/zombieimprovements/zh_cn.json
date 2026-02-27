@@ -1,0 +1,12 @@
+{
+  "zombieimprovements.config": "生物设置",
+  "zombieimprovements.config.leaderRedAura": "领袖僵尸的红色光晕",
+  "zombieimprovements.config.reinforcementSpawnSounds": "援军生成音效",
+  "zombieimprovements.config.spawnSoundVolume": "援军音效音量",
+  "zombieimprovements.config.spawnSoundVolume.desc": "在1.21.10版本中你可能需要将此值设为高于1，因为不知为何该版本的音效音量更低",
+  "zombieimprovements.config.onlyLeaderSpawnsReinforcements": "只有领袖僵尸可以呼叫援军",
+  "zombieimprovements.config.noLeaderFromSpawners": "刷怪笼无法生成领袖僵尸",
+  "zombieimprovements.config.noReinforcementsFromSpawners": "刷怪笼生成的僵尸无法呼叫援军",
+  "zombieimprovements.config.leaderMaxSpawnChance": "领袖最大生成概率",
+  "zombieimprovements.config.leaderMaxSpawnChance.desc": "这是领袖僵尸可达到的最高生成概率，该概率在区域难度为4.0时触发。当区域难度为2.0及以下时，生成概率始终为0"
+}

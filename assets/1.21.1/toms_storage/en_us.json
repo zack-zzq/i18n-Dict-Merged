@@ -1,0 +1,19 @@
+{
+  "tooltip.toms_storage.config_overlay.block": "Configuring Block: %d, %d, %d",
+  "tooltip.toms_storage.config_overlay.block_alt": "Configuring Block: %s",
+  "tooltip.toms_storage.config_overlay.mass_select": "Multiblock Area Mass Selecting",
+  "tooltip.toms_storage.config_overlay.select": "Multiblock Area Single Selecting",
+  "tooltip.toms_storage.config_overlay.mass_select.finish": "%s to finish area select",
+  "tooltip.toms_storage.config_overlay.mass_select.abort": "%s + %s to abort current selection",
+  "tooltip.toms_storage.config_overlay.select.single": "%s to add/remove a single inventory",
+  "tooltip.toms_storage.config_overlay.select.finish": "%s in the air to finish selection",
+  "tooltip.toms_storage.config_overlay.select.start_mass": "%s to start area select",
+  "tooltip.toms_storage.config_overlay.configure": "%s to configure block",
+  "tooltip.toms_storage.config_overlay.show": "%s to see connected blocks",
+  "tooltip.toms_storage.config_overlay.too_far": "Configuring block too far",
+  "tooltip.toms_storage.disabled_by_redstone": "Disabled by Redstone",
+  "config.toms_storage.basic_hopper_cooldown": "Basic Inventory Hopper transfer cooldown (ticks)",
+  "text.autoconfig.toms_storage.option.basicHopperCooldown": "Basic Inventory Hopper transfer cooldown (ticks)",
+  "config.jade.plugin_toms_storage.inventory_hopper": "Inventory Hopper Info",
+  "overlay.toms_storage.configurator_info": "Tom's Simple Storage: Configurator Overlay"
+}

@@ -1,0 +1,4 @@
+{
+  "deleteworldstotrash.selectWorld.deleteButton.recycle_bin": "'%s' 将被移至回收站，你可在之后需要时恢复它。",
+  "deleteworldstotrash.selectWorld.deleteButton.trash": "'%s' 将被移至垃圾桶，你可在之后需要时恢复它。"
+}

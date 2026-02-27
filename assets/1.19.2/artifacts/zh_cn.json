@@ -1,0 +1,5 @@
+{
+  "artifacts.config.common.campsite.count": "露营地数量",
+  "artifacts.config.common.campsite.scan_range": "露营地向下扫描范围",
+  "artifacts.config.common.campsite.max_ceiling_height": "露营地最大天花板高度"
+}

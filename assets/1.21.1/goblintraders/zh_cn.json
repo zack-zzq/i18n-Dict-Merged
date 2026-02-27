@@ -1,0 +1,13 @@
+{
+  "entity.goblintraders.goblin_trader": "哥布林商人",
+  "entity.goblintraders.vein_goblin_trader": "矿脉哥布林商人",
+  "subtitle.goblintraders.goblin_trader.annoyed_grunt": "恼怒的咕噜声",
+  "subtitle.goblintraders.goblin_trader.idle_grunt": "怠惰的咕噜声",
+  "item.goblintraders.goblin_trader_spawn_egg": "哥布林商人刷怪蛋",
+  "item.goblintraders.vein_goblin_trader_spawn_egg": "矿脉哥布林商人刷怪蛋",
+  "stat.goblintraders.trade_with_goblin": "哥布林交易次数",
+  "custom.goblintraders.tuned": "哥布林调校",
+  "custom.goblintraders.lore": "由哥布林重新改造的特殊物品，拥有强化属性",
+  "custom.goblintraders.moon_boots": "月球靴",
+  "custom.goblintraders.mystery_map": "神秘地图"
+}

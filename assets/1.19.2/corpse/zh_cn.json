@@ -1,0 +1,8 @@
+{
+  "gui.corpse.page": "%s / %s",
+  "tooltip.corpse.death_date": "死于%s",
+  "tooltip.corpse.item_count": "包含%s个格子的物品",
+  "button.corpse.transfer_items": "转移物品",
+  "button.corpse.additional_items": "额外物品",
+  "config.jade.plugin_corpse.corpse": "遗骸"
+}

@@ -1,0 +1,14 @@
+{
+  "entity.hybrid-aquatic.ocean_sunfish": "Ocean Sunfish",
+  "entity.hybrid-aquatic.pleco": "Pleco",
+  "entity.hybrid-aquatic.shiner": "Shiner",
+  "entity.hybrid-aquatic.trout": "Trout",
+  "item.hybrid-aquatic.ocean_sunfish": "Ocean Sunfish",
+  "item.hybrid-aquatic.ocean_sunfish_spawn_egg": "Ocean Sunfish Spawn Egg",
+  "item.hybrid-aquatic.pleco": "Pleco",
+  "item.hybrid-aquatic.pleco_spawn_egg": "Pleco Spawn Egg",
+  "item.hybrid-aquatic.shiner_spawn_egg": "Shiner Spawn Egg",
+  "item.hybrid-aquatic.trout_spawn_egg": "Trout Spawn Egg",
+  "modmenu.nameTranslation.hybrid-aquatic": "Hybrid Aquatic",
+  "profile.item.hybrid-aquatic.ocean_sunfish": "The Ocean Sunfish, also known as the Mola, is one of the heaviest bony fish, recognizable by its flattened, disk-like body and tendency to bask near the ocean surface."
+}

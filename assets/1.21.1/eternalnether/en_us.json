@@ -1,0 +1,22 @@
+{
+  "block.eternalnether.cracked_withered_blackstone_wall": "Cracked Withered Blackstone Wall",
+  "block.eternalnether.warped_nether_brick_wall": "Warped Nether Brick Wall",
+  "block.eternalnether.withered_blackstone_wall": "Withered Blackstone Wall",
+  "block.eternalnether.withered_bone_block": "Withered Bone Block",
+  "entity.eternalnether.warped_ender_pearl": "Warped Ender Pearl",
+  "item.eternalnether.cutlass": "Cutlass",
+  "item.eternalnether.withered_bone": "Withered Bone",
+  "item.eternalnether.withered_bone_meal": "Withered Bone Meal",
+  "itemGroup.eternalnether.main": "Eternal Nether",
+  "jukebox_song.eternalnether.wither_waltz": "Izofar - Wither Waltz",
+  "subtitles.entity.warped_enderman.ambient": "Warped Enderman vwoops",
+  "subtitles.entity.warped_enderman.death": "Warped Enderman dies",
+  "subtitles.entity.warped_enderman.hurt": "Warped Enderman hurts",
+  "subtitles.entity.warped_enderman.scream": "Warped Enderman screams",
+  "subtitles.entity.warped_enderman.stare": "Warped Enderman cries out",
+  "subtitles.entity.warped_enderman.teleport": "Warped Enderman teleports",
+  "subtitles.entity.wex.ambient": "Wex wexes",
+  "subtitles.entity.wex.charge": "Wex shrieks",
+  "subtitles.entity.wex.death": "Wex dies",
+  "subtitles.entity.wex.hurt": "Wex hurts"
+}

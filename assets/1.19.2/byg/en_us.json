@@ -1,0 +1,10 @@
+{
+  "byg.command.resetconfig.notifyrestart": "Configs have been reset, restart your game to ensure all changes are applied.",
+  "byg.command.validateconfig.notifyrestart": "Configs have been validated, restart your game to ensure all changes are applied.",
+  "byg.command.validateconfig.success": "Configs were successfully validated!",
+  "byg.config.error": "BYG config(s) errors have occurred, BYG has used default settings instead! See your latest.log for details.",
+  "byg.config.error.commandvalidate": "Make changes and do \"/byg configs validate\" to validate config changes. If you didn't fix your config(s) and the validation fails, this message will repeat.",
+  "byg.config.error.latestlog": "[Click here to open latest.log!]",
+  "byg.config.error.resetconfigs": "Or if you didn't edit your configs and it just broke, you can do \"/byg configs reset\"",
+  "byg.config.error.restart": "Changes to configs require a game restart to apply to the game."
+}

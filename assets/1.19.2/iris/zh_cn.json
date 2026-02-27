@@ -1,0 +1,4 @@
+{
+  "options.iris.colorSpace": "色彩空间",
+  "options.iris.colorSpace.sodium_tooltip": "用于将屏幕输出转换到目标色彩空间，可在所有光影包上生效。如果不确定，请使用SRGB。"
+}

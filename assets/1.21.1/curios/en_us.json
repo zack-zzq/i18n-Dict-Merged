@@ -1,0 +1,9 @@
+{
+  "curios.tooltip.inactive": "Inactive Slot",
+  "commands.curios.drop.success": "Dropped items in slot %s for %s",
+  "commands.curios.dropAll.success": "Dropped items in all slots for %s",
+  "commands.curios.replace.success": "Replaced slot %s for %s with %s",
+  "gui.curios.toggle.cosmetics": "Toggle Cosmetics",
+  "gui.curios.page": "Page %d / %d",
+  "curios.networking.failed": "Curios Networking Failure"
+}

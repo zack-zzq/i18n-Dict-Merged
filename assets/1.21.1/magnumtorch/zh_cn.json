@@ -1,0 +1,12 @@
+{
+  "block.magnumtorch.magnum_torch.tooltip.additional": "按住%s查看更多信息。",
+  "block.magnumtorch.magnum_torch.tooltip.blacklist": "不可用于：%s",
+  "block.magnumtorch.magnum_torch.tooltip.description": "在大范围内阻止生物生成",
+  "block.magnumtorch.magnum_torch.tooltip.horizontal_range": "水平方块范围：%s",
+  "block.magnumtorch.magnum_torch.tooltip.mob_types": "生物类型：%s",
+  "block.magnumtorch.magnum_torch.tooltip.shape_type": "形状种类：%s",
+  "block.magnumtorch.magnum_torch.tooltip.shift": "⇧ Shift",
+  "block.magnumtorch.magnum_torch.tooltip.vertical_range": "垂直方块范围：%s",
+  "block.magnumtorch.magnum_torch.tooltip.whitelist": "白名单：%s",
+  "itemGroup.magnumtorch.main": "卓越火炬"
+}

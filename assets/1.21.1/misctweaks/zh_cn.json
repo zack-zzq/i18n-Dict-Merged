@@ -1,0 +1,21 @@
+{
+  "misctweaks.config": "通用配置",
+  "misctweaks.client_config": "客户端配置",
+  "misctweaks.config.sneakingPreventsBerryBushDamage": "潜行可避免甜浆果丛伤害",
+  "misctweaks.config.legArmorPreventsBerryBushDamage": "护腿可避免甜浆果丛伤害",
+  "misctweaks.config.lodestoneChangesBackport": "磁石特性回溯移植",
+  "misctweaks.config.craftableSaddleBackport": "可合成马鞍特性回溯移植",
+  "misctweaks.config.elytraSwimTweak": "鞘翅游泳调整",
+  "misctweaks.config.soulSpeedNoDamage": "灵魂疾行不损坏靴子",
+  "misctweaks.config.creeperExplosionDropsAllItems": "苦力怕爆炸掉落全部物品",
+  "misctweaks.config.fasterObsidianMining": "更快挖掘黑曜石",
+  "misctweaks.config.obsidianMiningSpeedMultiplier": "黑曜石挖掘速度倍率",
+  "misctweaks.config.preventShulkerDuplication": "禁止潜影贝复制",
+  "misctweaks.config.flammableCobweb": "易燃蜘蛛网",
+  "misctweaks.config.thornsNoDamage": "荆棘不损坏胸甲",
+  "misctweaks.config.randomizeDiscLoot": "随机化音乐唱片战利品",
+  "misctweaks.client_config.lowerShield": "降低副手盾牌位置",
+  "misctweaks.client_config.shields": "盾牌列表",
+  "misctweaks.client_config.offset": "盾牌高度偏移",
+  "misctweaks.client_config.offset.desc": "数值越小，盾牌高度越低"
+}

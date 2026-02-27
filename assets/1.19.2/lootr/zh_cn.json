@@ -1,0 +1,14 @@
+{
+  "lootr.message.decayed": "衰败的容器在你的接触后碎了！",
+  "lootr.message.decay_in": "这个容器将在%s秒后完全腐烂。",
+  "lootr.message.decay_start": "你一碰这个容器它就开始碎裂了！它将在%s秒后完全腐烂。",
+  "lootr.message.refreshed": "你一碰这个容器，它的内容物就刷新了！",
+  "lootr.message.refresh_in": "这个容器将在%s秒后刷新内容物。",
+  "lootr.message.refresh_start": "这个容器将在%s秒后刷新出新的内容物！",
+  "lootr.message.invalid_table": "此容器的战利品表 [%s] 解析结果为空，无法生成战利品。请查看你的`latest.log`排查错误。",
+  "lootr.commands.usage": "/lootr barrel | barrel <loot-table> | chest | chest <loot-table> | cart | cart <loot-table> | shulker | shulker <loot-table> | convert | custom <id> | refresh | decay",
+  "lootr.commands.create": "已使用战利品表%3$s于%2$s处创建出了Lootr的%1$s。",
+  "lootr.commands.summon": "已在%s位置使用战利品表%s生成了Lootr矿车。",
+  "lootr.commands.blockpos": "%s，%s，%s",
+  "stat.lootr.looted_stat": "箱子已搜刮"
+}
