@@ -90,5 +90,9 @@
   "data/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json::name": "RS桥接器",
   "data/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json::pages[0].text": "RS桥接器可以与精炼存储（Refined Storage）交互。你可以取出物品、合成物品、获取所有物品列表等等，功能丰富。$(p)完整文档请查看$(9)$(l:https://docs.intelligence-modding.de/peripherals/rs_bridge/)官方维基页面$(/l)$()！",
   "data/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json::pages[2].multiblock.pattern[0][0]": "0P",
-  "data/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json::pages[2].text": "将RS桥接器连接到电脑即可使用！"
+  "data/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json::pages[2].text": "将RS桥接器连接到电脑即可使用！",
+  "data/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/end_automata_core.json::pages[1].link_text": "API文档",
+  "data/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/husbandry_automata_core.json::pages[1].link_text": "API文档",
+  "data/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/overpowered_automata_core.json::pages[2].link_text": "API文档",
+  "data/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/weak_automata_core.json::pages[2].link_text": "API文档"
 }
